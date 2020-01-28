@@ -15,7 +15,8 @@ header {
 }
 
 #container {
-    max-width: 1110px;
+    
+    width: auto;
     margin: auto;
 }
 
@@ -835,6 +836,27 @@ header {
     #nav ul {
         display: flex;
         flex-direction: column;
+    }
+    #nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+    #nav article{
+        margin-bottom: 30px;
+    }
+    #se1a2 {
+        margin: auto;
+    }
+    #activ div{
+        margin: auto;
+        width: 30%;
+        background-color: var(--reng1);
+    }
+    #s3se1{
+        margin: auto;
+        display: inline-block;
     }
 
 }
